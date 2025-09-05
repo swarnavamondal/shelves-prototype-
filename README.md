@@ -1,8 +1,9 @@
-# shelves-prototype-
+# shelves-proto srivas
+first prototype for project shelves 
 
-first prototype for project shelves
+members:
+rherg
+rdgdrg
+grgdrg
 
-members :
-Swarnava
-Shresth
-Srivas
+
