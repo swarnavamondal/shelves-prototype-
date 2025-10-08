@@ -1,0 +1,24 @@
+body {
+    background-image: url('/src/black.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Inter", sans-serif;
+}
+
+/* 2. Table Border Styling (White lines separating cells) */
+.assignment-table td,
+.assignment-table th {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+/* 3. Border Cleanup (Removing redundant outside borders) */
+.assignment-table th:last-child,
+.assignment-table td:last-child {
+    border-right: none; /* No border on the last column */
+}
+
+.assignment-table tr:last-child td {
+    border-bottom: none; /* No border on the last row */
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Materials</title>
+    <link rel="stylesheet" href="/learning_materials.css" />
+    <!-- Load Tailwind CSS for utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS Script (Styles are kept separate from the structure here) -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body class="text-white min-h-screen p-6 md:p-12 flex flex-col items-center">
+    <!-- HTML Structure and Content -->
+
+    <!-- Main Title: Changed from Assignments to Learning Materials -->
+    <h1
+      class="text-5xl md:text-7xl font-extrabold mb-16 tracking-wide text-center pt-8"
+    >
+      Learning Materials
+    </h1>
+
+    <!-- Button Grid Container -->
+    <div class="w-full max-w-4xl px-4">
+      <!-- Grid setup for 3 columns on medium screens and 2 columns on small screens -->
+      <div
+        class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 justify-items-center"
+      >
+        <!-- Row 1 -->
+        <button class="subject-button w-full max-w-[180px] aspect-[3/2]">
+          APP
+        </button>
+        <button class="subject-button w-full max-w-[180px] aspect-[3/2]">
+          OS
+        </button>
+        <button class="subject-button w-full max-w-[180px] aspect-[3/2]">
+          DSA
+        </button>
+
+        <!-- Row 2 -->
+        <button class="subject-button w-full max-w-[180px] aspect-[3/2]">
+          NMA
+        </button>
+        <button class="subject-button w-full max-w-[180px] aspect-[3/2]">
+          COA
+        </button>
+        <button class="subject-button w-full max-w-[180px] aspect-[3/2]">
+          UHV
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

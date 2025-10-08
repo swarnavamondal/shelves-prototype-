@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignments Dashboard</title>
+    <link rel="stylesheet" href="/assignments.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body class="text-white min-h-screen p-6 md:p-12 flex flex-col items-center">
+    <h1
+      class="text-5xl md:text-7xl font-extrabold mb-16 tracking-wide text-center pt-8"
+    >
+      Assignments
+    </h1>
+
+    <!-- Assignment Table Container -->
+    <div class="w-full max-w-5xl">
+      <div
+        class="bg-black/20 border-2 border-white rounded-lg overflow-x-auto shadow-2xl"
+      >
+        <table class="assignment-table w-full border-collapse">
+          <!-- Table Header -->
+          <thead>
+            <tr class="text-xl font-bold tracking-tight">
+              <th class="px-6 py-5 w-1/2 text-left">name of assignment</th>
+              <th class="px-6 py-5 w-1/4 text-center">date of submission</th>
+              <th class="px-6 py-5 w-1/4 text-center">marks</th>
+            </tr>
+          </thead>
+          <!-- Table Body -->
+          <tbody class="text-lg md:text-xl font-light">
+            <tr>
+              <td class="px-6 py-5 text-left">
+                FJ-1 Numerical Methods and Analysis
+              </td>
+              <td class="px-6 py-5 text-center">10/8/25</td>
+              <td class="px-6 py-5 text-center">7</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-left">FJ-2 Operating Systems</td>
+              <td class="px-6 py-5 text-center">15/8/25</td>
+              <td class="px-6 py-5 text-center">8</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-left">
+                LLJ-1 Advanced Programing Practice
+              </td>
+              <td class="px-6 py-5 text-center">13/8/25</td>
+              <td class="px-6 py-5 text-center">10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

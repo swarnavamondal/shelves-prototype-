@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-optical-sizing: auto;
+  font-weight: 10000;
+  font-style: normal;
+  color: white;
+}
+h4 {
+    font-family: 'Arimo', sans-serif;
+    border: 5px solid;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 999px; /* Capsule shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Optional: removes extra space */
+}
+table{
+        margin-left: auto;
+    margin-right: auto;
+}
+.h4-table tr {
+    height: 80px; /* Adds vertical space between rows */
+}
+
+.h4-table td {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;    /* Add vertical space above */
+    padding-bottom: 20px; /* Add vertical space below */
+}
+body{
+   
+background-image: url(/src/black.jpg);
+background-repeat:no-repeat ;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+a, a:visited, a:active, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+h4 {
+    font-family: 'Arimo', sans-serif;
+    border: 5px solid;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 999px; /* Capsule shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Optional: removes extra space */
+    transition: color 0.2s;
+}
+
+a:hover h4, h4:hover {
+    color: whitesmoke;
+}

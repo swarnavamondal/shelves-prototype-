@@ -1,0 +1,31 @@
+/* 1. Body and Background Styling */
+        body {
+            /* Black background */
+               background-image: url('/src/black.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Inter", sans-serif;
+        }
+
+        /* Custom style for the large, rounded buttons */
+        .subject-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 2rem; /* Large text */
+            font-weight: 700; /* Bold text */
+            padding: 1rem 2.5rem;
+            border-radius: 9999px; /* Pill shape */
+            background-color: #4a4a4a; /* Dark grey background */
+            color: #ffffff;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Soft shadow */
+            transition: transform 0.2s, background-color 0.2s;
+            cursor: pointer;
+        }
+
+        .subject-button:hover {
+            background-color: #636363; /* Slightly lighter on hover */
+            transform: translateY(-2px);
+        }
